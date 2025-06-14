@@ -193,10 +193,10 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tigh sm:text-5xl text-zinc-100">
-            Software engineer, and materials ethusiast.
+            Software engineer, and materials enthusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-400">
-            I&apos;m Eugen, a software engineer and builder based in Mountain View, California. I work at the intersection of science and software, creating tools that help researchers accelerate materials discovery through AI and modern web technologies.
+            I&apos;m Eugen, a software engineer and materials enthusiast based in Mountain View, CA. I work at the intersection of science and software, creating tools that help researchers accelerate materials discovery through AI and modern web technologies.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

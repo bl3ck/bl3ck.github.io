@@ -18,15 +18,10 @@ export const metadata: Metadata = {
   title: {
     template: '%s - Tanue Eugen-Bleck Mbunwo',
     default:
-      'Eugen - Software Engineer, and aspiring material scientist',
+      'Eugen - Software Engineer and materials enthusiast.',
   },
   description:
-    'I’m Eugen-Bleck, a software engineer and entrepreneur based in Mountain View, CA.',
-  alternates: {
-    types: {
-      'application/rss+xml': `${process.env.NEXT_PUBLIC_SITE_URL}/feed.xml`,
-    },
-  },
+    'I&apos;m Eugen-Bleck, a software engineer and materials enthusiast based in Mountain View, CA.',
 }
 
 export default function RootLayout({
