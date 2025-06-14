@@ -3,7 +3,7 @@ import Link from 'next/link'
 import clsx from 'clsx'
 
 import { Button } from '@/components/button'
-import { Container } from '@/components/container'
+import { Container } from '@/components/parent-containter'
 import {
   GitHubIcon,
   InstagramIcon,
@@ -77,13 +77,13 @@ interface Role {
 }
 
 function Role({ role }: { role: Role }) {
-  let startLabel =
+  const startLabel =
     typeof role.start === 'string' ? role.start : role.start.label
-  let startDate =
+  const startDate =
     typeof role.start === 'string' ? role.start : role.start.dateTime
 
-  let endLabel = typeof role.end === 'string' ? role.end : role.end.label
-  let endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
+  const endLabel = typeof role.end === 'string' ? role.end : role.end.label
+  const endDate = typeof role.end === 'string' ? role.end : role.end.dateTime
 
   return (
     <li className="flex gap-4">
@@ -114,7 +114,7 @@ function Role({ role }: { role: Role }) {
 }
 
 function Resume() {
-  let resume: Array<Role> = [
+  const resume: Array<Role> = [
     {
       company: 'Aionics Inc',
       title: 'Software Engineer',
@@ -161,7 +161,7 @@ function Resume() {
 }
 
 function Photos() {
-  let rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
+  const rotations = ['rotate-2', '-rotate-2', 'rotate-2', 'rotate-2', '-rotate-2']
 
   return (
     <div className="mt-16 sm:mt-20">
@@ -196,7 +196,7 @@ export default async function Home() {
             Software engineer, and materials ethusiast.
           </h1>
           <p className="mt-6 text-base text-zinc-400">
-            I’m Eugen, a software engineer and builder based in Mountain View, California. I work at the intersection of science and software, creating tools that help researchers accelerate materials discovery through AI and modern web technologies.
+            I&apos;m Eugen, a software engineer and builder based in Mountain View, California. I work at the intersection of science and software, creating tools that help researchers accelerate materials discovery through AI and modern web technologies.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink

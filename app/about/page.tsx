@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
 
-import { Container } from '@/components/container'
+import { Container } from '@/components/parent-containter'
 import {
   GitHubIcon,
   InstagramIcon,
@@ -73,16 +73,16 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-400">
             <p>
-              I'm a Software Engineer with a passion for building intelligent tools at the intersection of software, science, and design. My focus lies in material informatics, where I collaborate with researchers from institutions like Stanford, Michigan, Berkeley, and the University of Toronto to develop software that accelerates discovery through AI, graph neural networks (GNNs), and modern web technologies.
+              I&apos;m a Software Engineer with a passion for building intelligent tools at the intersection of software, science, and design. My focus lies in material informatics, where I collaborate with researchers from institutions like Stanford, Michigan, Berkeley, and the University of Toronto to develop software that accelerates discovery through AI, graph neural networks (GNNs), and modern web technologies.
             </p>
             <p>
-              At Aionics Inc, I’ve led the development of platforms for molecular property prediction, scientific data tracking, and cloud-based analytics—turning complex research workflows into user-friendly, scalable products. I combine full-stack development with a deep understanding of infrastructure, security, and UI/UX to build reliable systems that serve real scientific needs.
+              At Aionics Inc, I&apos;ve led the development of platforms for molecular property prediction, scientific data tracking, and cloud-based analytics—turning complex research workflows into user-friendly, scalable products. I combine full-stack development with a deep understanding of infrastructure, security, and UI/UX to build reliable systems that serve real scientific needs.
             </p>
             <div>
               <h2>Core Values</h2>
               <ul className='list-disc pl-5 mt-2'>
                 <li><b>Design with Purpose</b> – Every interface and experience should feel intuitive and intentional.</li>
-                <li><b>Keep Learning </b> – The tech world moves fast, and I'm always evolving with it.</li>
+                <li><b>Keep Learning </b> – The tech world moves fast, and I&apos;m always evolving with it.</li>
                 <li><b>Open by Nature </b> – Good ideas should be shared, not siloed.</li>
               </ul>
             </div>

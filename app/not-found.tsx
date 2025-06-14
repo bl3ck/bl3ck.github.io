@@ -1,5 +1,5 @@
 import { Button } from '@/components/button'
-import { Container } from '@/components/container'
+import { Container } from '@/components/parent-containter'
 
 export default function NotFound() {
   return (
