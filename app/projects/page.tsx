@@ -13,7 +13,7 @@ const projects = [
     name: 'MatSage AI',
     description:
       'An open-source, ai toolkit for materials science, enabling researchers to pull properties from research papers using GNNs.',
-    link: { href: 'https://github.com/bl3ck/matsage-ai', label: 'https://github.com/google/adk-python' },
+    link: { href: 'https://matsage.ai/', label: 'https://matsage.ai/' },
     logo: logoMatSage,
   },
   {
