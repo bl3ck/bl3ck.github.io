@@ -71,7 +71,7 @@ export default function About() {
           </h1>
           <div className="mt-6 space-y-7 text-base text-zinc-400">
             <p>
-              I&apos;m a Software Engineer with a passion for building intelligent tools at the intersection of software, science, and design. My focus lies in material informatics, where I collaborate with researchers from institutions like Stanford, Michigan, Berkeley, and the University of Toronto to develop software that accelerates discovery through AI, graph neural networks (GNNs), and modern web technologies.
+              I&apos;m a Software Engineer with a passion for building intelligent systems at the intersection of software, science, and material design. My focus lies in material informatics, where I collaborate with researchers from institutions like Stanford, Michigan, Berkeley, Verginia Tech and the University of Toronto to develop software that accelerates discovery through AI, graph neural networks (GNNs), and modern web technologies.
             </p>
             <p>
               At Aionics Inc, I&apos;ve led the development of platforms for molecular property prediction, scientific data tracking, and cloud-based analytics—turning complex research workflows into user-friendly, scalable products. I combine full-stack development with a deep understanding of infrastructure, security, and UI/UX to build reliable systems that serve real scientific needs.
